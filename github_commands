@@ -13,7 +13,11 @@
 	• git branch -d <branch_name> -- deletes the branch
 	• git push --upstream -origin --- to push the newly created branch or repo to git hub
 	• git status -- lists all new modified changes to be committed
-	
+
+REFACTOR FILENAMES
+	• git rm <file> -- Deletes the file from the working directory and stages the deletion
+	• git rm --cached <file> -- Removes the file from version control but preserves the file locally
+	• git mv <file-original> <file-renamed> -- Changes the file name and prepares it for commit
 CONFIGURING TOOLS
 	• git config--global user.name "username" -- sets the name you want attached to your commit transactions
 	• git config--global user.email "email address" -- sets the email you want attached to your commit changes
