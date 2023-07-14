@@ -1,17 +1,17 @@
 
 ############ GIT COMMANDS ###############
 	• git init -- Initialize a local repo or create a local repo
-	• git clone url -- cloning the repo from github
+	• git clone url -- cloning the repo from GitHub
 	• git add -- Snapshot of the file for versioning
 	• git commit -am "comments" -- committing the changes
-	• git diff -- Show file difference not yet staged  -- Staged: Planned, organized or arranged in advance)
+	• git diff -- Show file difference not yet staged  -- Staged: Planned, organized, or arranged in advance)
 	• git diff --staged -- Difference between staging and the last file version
-	• git reset -- unstages the file but keeps the changes
+	• git reset -- unstaged the file but keeps the changes
 	• git branch <branch_name> -- creates a branch
 	• git checkout <branch_name> -- moves in to the specified branch
-	• git merge <branch> -- combines the specified branch history to current branch
+	• git merge <branch> -- combines the specified branch history with the current branch
 	• git branch -d <branch_name> -- deletes the branch
-	• git push --upstream -origin --- to push the newly created branch or repo to git hub
+	• git push --upstream -origin --- to push the newly created branch or repo to the git hub
 	• git status -- lists all new modified changes to be committed
 
 REFACTOR FILENAMES
@@ -20,8 +20,8 @@ REFACTOR FILENAMES
 	• git mv <file-original> <file-renamed> -- Changes the file name and prepares it for commit
 	
 CONFIGURING TOOLS
-	• git config--global user.name "username" -- sets the name you want attached to your commit transactions
-	• git config--global user.email "email address" -- sets the email you want attached to your commit changes
+	• git config--global user.name "username" -- sets the name you want to be attached to your commit transactions
+	• git config--global user.email "email address" -- sets the email you want to be attached to your commit changes
 	
 REVIEW History
 	• git log -- lists version history for the current branch
@@ -36,7 +36,14 @@ REDO COMMITS
 SYNCHRONIZE CHANGES
 	• git fetch <bookmark> --- Downloads all history from the repository bookmark
 	• git merge <bookmark>/<branch_name> --- combines bookmarks branch into current local branch
-	• git push <alias> <branch_name> -- uploads all local branch commits to github
+	• git push <alias> <branch_name> -- uploads all local branch commits to GitHub
 	• git pull --- Downloads bookmarks history and incorporates changes
+
+COMMIT MESSAGES
+	• git commit -m "ci: message" --- For changes related to CI integration
+	• git commit -m "build: message" --- For changes related to build commit.
+	• git commit -m "chore: message" --- For changes related to the miscellaneous changes.
+	• git commit -m "feat: message" --- For changes related to the existing or new feature.
+	• git commit -m "fix: message" --- For changes related fix commit.
 	
 YOU CAN ONLY PUSH THE CHANGES ONCE YOU CREATE THE REPO IN GITHUB --------------- TYPE GIT PUSH AND ENTER THE DETAILS AS SPECIFIED BY GIT TO PUSH THE REPO TO GITHUB
